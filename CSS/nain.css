@@ -547,7 +547,10 @@ padding: 0px;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--color-command-post);}
+  color: var(--color-command-post);
+}
+
+
   .spetifikation-komand{
 padding-bottom: 30px;
 padding-top: 30px;
@@ -571,7 +574,7 @@ padding: 0px;}
   justify-content: center; */
   font-weight: 700;
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -582,66 +585,47 @@ margin-bottom: 50px;
   justify-content: center;
 }
 .regular-customers-item{
- margin-right: 30px;
+  
+padding: 0px;
+margin-right: 30px;
+}
+.regular-customers-item :hover,
+.regular-customers-item :focus{
+border-color: var(--accent-color);
+fill:var(--accent-color) ;
 }
 .regular-customers-item :last-child{
   margin-right: 0px;
 }
-/****************НА ССЫЛКЕ*************************/
-.regular-customers-a{
+.regular-customers-list-item-a{
+    display: block;
+    width: 170px;
+height: 92px;
+  fill: var(--color-sprite);
   border: 1px solid var(--color-of-the-costumers);
+background-color: var(--background-cilir);
 }
-.regular-customers-list-item-a :hover{
+.regular-customers-list-item-a :hover,
+.regular-customers-list-item-a :focus{
+  background-color: var(--background-cilir);
   border-color: var(--accent-color);
-  fill: var(--accent-color);
-}
-.regular-customers-a-svg{
-  padding: 16px 32px;
+    fill: var(--accent-color);
 }
 .regular-customers-list-item-a-svg{
   width: 106px;
   height: 60px;
-  fill: var(--color-sprite);
-  margin: 16px 32px;
+    margin: 16px 32px;
 }
-.regular-customers-item{
-      width: 170px;
-    height: 92px;
-    padding: 0px;
-    border: 1px solid var(--color-of-the-costumers);
-    background-color: var(--background-cilir);
+.regular-customers-list-item-a-svg :hover,
+.regular-customers-list-item-a-svg :focus{
+fill: var(--color-sprite);
 }
-.regular-customers-item :hover{
-  border-color: var(--accent-color);
-}
-.regular-customers-list :hover{
-  border-color: var(--accent-color);
-}
-/* .regular-customers-list-item-a{
-  width: 170px;
-  height: 92px;
-  padding: 0px;
-  border: 1px solid var(--color-of-the-costumers);
-  background-color: var(--background-cilir);
-} */
-.regular-customers-buttom{
-  width: 170px;
-  height: 92px;
-  padding: 0px;
-  border: 1px solid var(--color-of-the-costumers);
-  background-color: var(--background-cilir);
-}
-.regular-customers-buttom :hover{
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
-  width: 170px;
-  height: 92px;
-}
-.regular-customers-svg{
-  width: 106px;
-  height: 60px;
-  fill: var(--color-sprite);
-}
+
+/****************НА ССЫЛКЕ*************************/
+
+
+
+
 
 
 /*footer*******************************************/
@@ -894,62 +878,62 @@ padding: 20px 24px;
 } 
 .kontakt-comand-list{
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 0px;
   margin-top: 16px;
-  margin-bottom: 30px;
-  /* border: none; */
-    }
-    .kontakt-comand-list-item-a{
-      display: block;
-      border-radius: 50%;
-    }
-    .kontakt-comand-list-item{
-      fill: var(--color-of-the-costumers);
-    }
-    .kontakt-comand-list-item{
+     }
+    
+     .kontakt-comand-list-item{
+     
       padding: 0px;
     border: none;
-    /* border-radius: 50%; */
- /* margin-right: 10px; */
-        width: 44px;
-    height: 44px;
+    /* fill: currentColor; */
     justify-content: center;
     background-color: var(--button-text-color);
-    /* background-color:var(--background-cilir); */
-    fill: var(--color-of-the-costumers);
+            margin-right: 10px;
+            fill: var(--color-of-the-costumers);
+           
     }
-     .kontakt-comand-list-item :hover,
-     .kontakt-comand-list-item :active{
+    .kontakt-comand-list-item :hover,
+    .kontakt-comand-list-item :focus{
       background-color: var(--accent-color);
-      fill: var(--background-cilir);
-     
-     }
-     .kontakt-comand-list-item-a{
-       width: 44px;
-       height: 44px;
-     }
-     .kontakt-comand-list-item-a :hover
-     .kontakt-comand-list-item-a :active{
-      background-color: var(--accent-color);
-      fill: var(--button-text-color);
-           } 
-    .kontakt-comand-list-item:last-child{
+    fill: var(--backgroun-color-images);
+    }
+    .kontakt-comand-list :last-child{
       margin-right: 0px;
     }
-    .kontakt-comand-list-item-a-svg{
-      fill: var(--color-of-the-costumers);
+    /* .kontakt-comand-list-item-a :hover,
+    .kontakt-comand-list-item-a :focus{
+      background-color: var(--accent-color);
+      fill: violet;
+    } */
+    /* .kontakt-comand-list-item-a-svg :hover, 
+    .kontakt-comand-list-item-a-svg :focus{
+     fill: violet;
+    }
+    */
+    .kontakt-comand-list-item-a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: block;
+      border-radius: 50%;
+       width: 44px;
+       height: 44px;
+       background-color: #ffffff;
+       fill: var(--color-of-the-costumers);
+       }
+             .kontakt-comand-list-item-a-svg{
+          
       width: 20px;
       height: 20px;
-      margin: 12px;
+    margin: 12px;
+    
+      }
+  
+/********************************************/
 
-    }
-
-/* .button-svg{
-  width: 30px;
-  height: 30px;
-  fill: var(--color-sprite);
-} */
 .footer{
   display: flex;
   flex-direction: row;
