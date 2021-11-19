@@ -219,21 +219,21 @@ left: 0;
 bottom: -28px;
 width: 50px;
 height: 4px;
-opacity: 0;
+opacity: 1;
   }
 .bordser-b
   /* .border-b ::after{
     
     /* position: absolute;
+co    position: absolute;
 content: "";
 background: #2196F3;
 border-radius: 2px;
 left: 0;
-padding-bottom: 28px;
-bottom: 0px;
-width: 78px;
+bottom: -28px;
+width: 50px;
 height: 4px;
-  } */ */
+opacity: 1;*/
 /*****************картинки*****************/
 
 .navig_sait .head :last-child {
