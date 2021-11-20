@@ -274,7 +274,7 @@ opacity:1;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navig_sait :focus ,
+.navig_sait :focus,
 .navig_sait :hover {
   color: var(--accent-color);
   
@@ -618,6 +618,45 @@ padding: 0px;
   margin-bottom: 50px;
   /**/
 }
+/**************************надпись*****************/
+/****************************на*******************/
+/*********************картинках*****************/
+.img-first{
+  position: relative;
+}
+.div-text-image {
+  position: relative;
+}
+
+
+.text{
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+left: 0;
+bottom: 0;
+padding: 27px; 
+
+}
+.text-of-image-work-p {
+position: absolute;
+display: block;
+bottom: 0;  
+left: 0;
+background-color: rgba(47, 48, 58, 0.8);
+width: 370px;
+  height: 70px;
+}
+
+
 /********************наша команда*****************/
 /* .photo-comand {
   padding-top: 0px;
@@ -858,7 +897,7 @@ margin-bottom: 0px;
   background: #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   /* -o-transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
@@ -921,7 +960,9 @@ margin-bottom: 0px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
  
  }
- 
+ /*************************картинки*************/
+ /******************************* портфолио*****/
+/************************************************/
  
 .name-img{
   padding-top: 0px;
@@ -975,9 +1016,78 @@ padding: 20px 24px;
 .botton-image {
       padding-bottom: 94px;
       padding-top: 94px;
-     
+  }
+  /*******************синий**********************/
+  /*******************фон************************/
+  /********************с*************************/
+  /******************надписями*******************/
+
+/*<div class="image-portfolio-list-a-img">*/
+.image-fone-portfolio{
+  position: relative;
+  /* overflow: hidden; */
 }
-/*подвал*/
+.image-fone-portfolio-p{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 60px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ .image-portfolio-list-a-p{
+  display: block;
+
+  font-weight: normal;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+color: var(--backgroun-color-images) !important ;
+padding: 0px 24px;
+} 
+ .other-a :hover{
+  transform: translateY(+50);
+}   
+
+
+
+
+
+
+
+/* .image-portfolio-list-a-img{
+  position: relative;
+  /* overflow: hidden; }*/
+
+  /* .image-fone-portfolio{ */
+    /* position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+    background-color: rgba(33, 150, 243, 0.9);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    /* content: "";
+    position: absolute;
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    bottom: 0;
+right: 0;
+overflow: hidden;
+transition: transform 250ms  cubic-bezier(0.4, 0, 0.2, 1); 
+} */
+
+
+/***************************************************/
+  /************************************************/
+/******************подвал***********************/
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -1183,46 +1293,6 @@ margin-right: 0px;
   fill: var(--background-cilir); 
  }
   */
-  .image-portfolio-list-a-img ::before{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: navy;
-    
-  }
-  .overlay-img ::before{
-    content: "";
-    width: 50px;
-    height: 50px;
-    color: yellow;
-  }
-.image-portfolio-list-a-p{
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%; 
-  transform: translate(-50%, -50%);
-top: 50%;
-left: 50%;
-padding: 63px 24px;
- font-weight: 400;
-font-size: 18px;
-line-height: 1.55;
-letter-spacing: 0.03em;
-color:  var(--backgroun-color-images)!important;
-opacity: 0;
-/*позиционирование*/
- }
- /* .overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(33, 150, 243, 0.9);
-
-  transform: translatex(-100%);
-  transition: transform 250ms 
- } */
+  
 
  
