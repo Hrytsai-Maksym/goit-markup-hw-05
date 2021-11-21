@@ -1047,9 +1047,9 @@ letter-spacing: 0.03em;
 color: var(--backgroun-color-images) !important ;
 padding: 0px 24px;
 } 
- .other-a :hover{
-  transform: translateY(+50);
-}   
+.other:hover .image-fone-porfolio-p {
+  bottom: 0;
+}
 
 
 
