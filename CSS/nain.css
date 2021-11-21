@@ -1105,28 +1105,6 @@ transition:  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0);
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* .image-fone-portfolio-p:hover, */
 /* .image-fone-portfolio-p:hover{
   transform: translateY(+1px); 
@@ -1363,7 +1341,4 @@ margin-right: 0px;
    height: 44px;
    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- 
-  
-
  
